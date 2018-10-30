@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>MedTrack: Register</title>
+    <title>MedTrack: Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   </head>
@@ -31,35 +31,23 @@
     </nav>
     <div class = "container">
       <div class="text-center">
-        <h1>Register</h1>
-        <p>Have an account? <a href="#">Login!</a></p>
+        <h1>Login</h1>
+        <p>New to MedTrack? <a href="#">Register here!!</a></p>
       </div>
 
     <form>
+
       <div class="form-group">
-        <label for="Name">Name</label>
-        <input type="email" name = "Name" class="form-control" placeholder="Enter name">
+        <label for="exampleInputUsername">Enter Username</label>
+        <input type="username" name = "usernsame" class="form-control" placeholder="Enter Username">
       </div>
 
       <div class="form-group">
-        <label for="role">Role</label>
-        <select class="form-control" name = "role" id="exampleFormControlSelect1">
-          <option>Doctor</option>
-          <option>Nurse</option>
-        </select>
+        <label for="exampleInputPassword1">Enter Password</label>
+        <input type="password" name = "password" class="form-control"  placeholder="Password">
       </div>
 
-      <div class="form-group">
-        <label for="username">Username</label>
-        <input type="username" name = "username" class="form-control" placeholder="Enter Username">
-      </div>
-
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" name = "Password" class="form-control"  placeholder="Password">
-      </div>
-
-      <button type="submit" class="btn btn-danger btn-block">Register</button>
+      <button type="submit" class="btn btn-danger btn-block">Login</button>
     </form>
   </div>
   </body>
